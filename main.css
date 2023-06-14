@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    background-color: rebeccapurple;
+    color: #fff;
+}
+h4 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+hr {
+    height: 3px;
+    background-color: white;
+    color: white;
+}
+body {
+    background-color: black;
+}
+p {
+    color: white;
+}

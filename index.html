@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seriály</title>
+    <!-- Připojení Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            
+        }
+        .dropdown-item {
+            background-color: #722f37;
+        }
+        .dropdown-menu {
+            background-color: #722f37;
+        }
+        .nav-item {
+            padding-right: 70px;
+        }
+    </style>
+</head>
+<h1>Seriály</h1>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+</div>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle genres-button" href="#" id="genresDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <strong>ŽÁNRY</strong>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="genresDropdown">
+                <a class="dropdown-item" href="b/b.html"><strong>Akční seriály</strong></a>
+                <a class="dropdown-item" href="c/c.html"><strong>Hororové seriály</strong></a>
+                <a class="dropdown-item" href="d/d.html"><strong>Animované seriály</strong></a>
+                <a class="dropdown-item" href="e/e.html"><strong>Drama seriály</strong></a>
+            </div>
+        </li>
+    </ul>
+</nav>
+      
+    
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indikátory -->
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slidy -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="bb4.jpg" alt="Obrázek 1">
+            <div class="carousel-caption">
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="bcs4.jpg" alt="Obrázek 2">
+            <div class="carousel-caption">
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="twd4.jpg" alt="Obrázek 3">
+            <div class="carousel-caption">
+            </div>
+        </div>
+    </div>
+
+    <!-- Ovládací prvky -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<!-- Připojení Bootstrap JS a jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
